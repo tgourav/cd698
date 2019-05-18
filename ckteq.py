@@ -26,7 +26,7 @@ def areEquivalent(n1, n2):
     #########################################
     # TODO: FILL IN YOUR CODE HERE.
     root_node = n1 ^ n2
-    #print (root_node)
+    print ("root node ", root_node)
     node2literal_map = {}
     def newVar(n):
         return S.newVar()
