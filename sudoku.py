@@ -108,12 +108,7 @@ def testn():
             clause =[]
     r = S.solve()
     print(r)
-    for i in range(3):
-        for j in range(3):
-            print(S.modelValue(node2literal[i][j][0]),S.modelValue(node2literal[i][j][1]),S.modelValue(node2literal[i][j][2]))
-    print(box_value(S,node2literal,0,0),box_value(S,node2literal,0,1),box_value(S,node2literal,0,2))
-    print(box_value(S,node2literal,1,0),box_value(S,node2literal,1,1),box_value(S,node2literal,1,2))
-    print(box_value(S,node2literal,2,0),box_value(S,node2literal,2,1),box_value(S,node2literal,2,2))
+    
 
 
 def main():
