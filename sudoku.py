@@ -1,6 +1,7 @@
 from __future__ import print_function
 import math
 import numpy as np
+#if numpy is not installed try running sudo apt install python-numpy
 from solver import Solver
 import ckt
 import itertools
